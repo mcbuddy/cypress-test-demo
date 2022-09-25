@@ -7,7 +7,4 @@ workflows:
   build:
     jobs:
       - cypress/run
-    steps: 
-      - store_artifacts:
-        path: /root/project/cypress/videos/  
-
+        store_artifacts: true
