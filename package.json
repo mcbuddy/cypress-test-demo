@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test-demo",
+  "version": "1.0.0",
+  "description": "Cypress Test Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Budi Sugianto",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
